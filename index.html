@@ -37,7 +37,8 @@
    
    <script type="text/javascript">
       function changeImage() {
-         document.getElementById("sample").src = "Robi-10-Minute-School.png";
+         var sampleBtn = document.getElementById("sample");
+         sampleBtn.src = sampleBtn.src === "Robi-10-Minute-School.png" ? "10-min-school.jpg":"Robi-10-Minute-School.png";
       }
    </script>
    <br><br>
